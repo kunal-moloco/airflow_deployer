@@ -1,6 +1,11 @@
 # airflow_deployer
 Create deploy PR automatically from PR#
 
+Requirement:
+```
+!pip install gitpython
+```
+
 Usage:
 ```
 python3 -m make_deploy_commit --config_file make_deploy_commit.cfg
