@@ -1,6 +1,11 @@
 # airflow_deployer
 Create deploy PR automatically from PR#
 
+Usage:
+```
+python3 -m make_deploy_commit --config_file make_deploy_commit.cfg
+```
+
 Arguments:
 - `pr_id`: PR index of the merged change that you want to deploy
 - `pr_author`: Name of the author that created the above PR
